@@ -157,6 +157,13 @@ console.log("")
 const numbers2 = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34]
 
 
+numbers2.forEach(function(number, index) { 
+    numbers2[index] = number + 2;
+});
+
+console.log(`Array after .forEach loop function = [${numbers2}]`);
+
+
 
 
 
